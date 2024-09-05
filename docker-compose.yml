@@ -1,0 +1,15 @@
+services:
+  growatt-dashboard:
+    image: ghcr.io/lukaslerche/growatt-dashboard
+    container_name: scheduled-image-grab
+    environment:
+      GROWATT_USER: your_growatt_username
+      GROWATT_PASSWORD: your_growatt_password
+      PLANT_ID: the_plant_id
+      INVERTER_ID: the_inverter_id
+      KWH_PRICE: 30.80
+      MAX_POWER: 800
+    logging:
+      driver: "journald"
+    restart: unless-stopped
+    
