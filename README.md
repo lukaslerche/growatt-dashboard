@@ -19,6 +19,7 @@ docker run -d \
   -e INVERTER_ID=the_inverter_id \
   -e KWH_PRICE=30.80 \
   -e MAX_POWER=800 \
+  -p 3000:3000 \
   --log-driver=journald \
   --restart unless-stopped \
   ghcr.io/lukaslerche/growatt-dashboard

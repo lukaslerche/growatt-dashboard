@@ -12,4 +12,6 @@ services:
     logging:
       driver: "journald"
     restart: unless-stopped
+    ports:
+      - 3000:3000
     

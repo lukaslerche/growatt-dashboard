@@ -20,3 +20,4 @@ RUN pnpm i --frozen-lockfile -P
 COPY --from=build /app/build/index.js .
 
 CMD ["node", "index.js"]
+EXPOSE 3000/tcp
