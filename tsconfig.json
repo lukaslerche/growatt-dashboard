@@ -10,5 +10,7 @@
     ],
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
-  }
+    "outDir": "./build"
+  },
+  "exclude": ["node_modules"]
 }
