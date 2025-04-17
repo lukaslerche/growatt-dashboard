@@ -3,6 +3,8 @@
 ## Description
 A small HTML dashboard to show stats from a Growatt inverter, instead of using the Growatt website or ShinePhone app. In the background, it uses the Growatt JS implementation (https://github.com/PLCHome/growatt).
 
+![SCR-20250417-jteh](https://github.com/user-attachments/assets/53665c0a-962c-4343-b3c8-66072eb0616e)
+
 ## Features
 - `/` show a small dashboard as HTML
 - `/power` return the current power output as number
